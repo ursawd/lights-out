@@ -4,12 +4,8 @@ import Cell from "./Cell";
 
 it("renders without crashing", function () {
   render(
-    <table>
-      <tbody>
-        <tr>
-          <Cell />
-        </tr>
-      </tbody>
-    </table>
+    <tr>
+      <Cell />
+    </tr>
   );
 });
